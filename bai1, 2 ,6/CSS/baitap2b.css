@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+}
+div{
+    width: 1050px;
+    height: auto;
+    border: 2px solid rgb(65, 193, 65);
+    padding-left: 20px;
+    
+}
+
+p{  
+width: 950px;
+padding: 10px;
+text-align: justify;}

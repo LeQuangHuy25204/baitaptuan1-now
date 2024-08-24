@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: #ADD8E6;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 450px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ADD8E6;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: inline-block;
+            width: 140px;
+            vertical-align: top;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        select,
+        textarea {
+            width: 250px;
+            padding: 10px; /* Căn lề bên trong hộp */
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-container input {
+            padding: 8px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .button-container input.cancel {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Registration Form</h2>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="firstName"><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastName"><br>
+
+        <label>Address #1:</label>
+        <input type="text" name="address1"><br>
+
+        <label>Address #2:</label>
+        <input type="text" name="address2"><br>
+
+        <label>City:</label>
+        <input type="text" name="city"><br>
+
+        <label>State:</label>
+        <input type="text" name="state"><br>
+
+        <label>Zip:</label>
+        <input type="text" name="zip"><br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option value="United States" selected>United States</option>
+        </select><br>
+
+        <label>Product:</label>
+        <select name="product">
+            <option value="ScanMaster" selected>ScanMaster</option>
+        </select><br>
+
+        <label>Date Purchased:</label>
+        <input type="text" name="datePurchased"><br>
+
+        <label>Serial #:</label>
+        <input type="text" name="serial"><br>
+
+        <label>Used for:</label><br>
+        <label><input type="radio" name="usedFor" value="Home"> Home</label>
+        <label><input type="radio" name="usedFor" value="Business" checked> Business</label>
+        <label><input type="radio" name="usedFor" value="Government"> Government</label><br>
+        <label><input type="radio" name="usedFor" value="Education"> Educational Institution</label>
+        <label><input type="radio" name="usedFor" value="Other"> Other</label><br>
+
+        <label>System:</label><br>
+        <label><input type="checkbox" name="system" value="Windows"> Windows</label>
+        <label><input type="checkbox" name="system" value="Macintosh"> Macintosh</label>
+        <label><input type="checkbox" name="system" value="UNIX"> UNIX</label>
+        <label><input type="checkbox" name="system" value="Other"> Other</label><br>
+
+        <label>Comments?:</label><br>
+        <textarea name="comments" rows="4" cols="37" style="padding: 10px;"></textarea><br>
+
+        <div class="button-container">
+            <input type="button" value="Click to register">
+            <input type="button" class="cancel" value="Click to cancel">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

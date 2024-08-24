@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+}
+div{
+    width: 950px;
+    height: auto;
+    border: 2px solid rgb(65, 193, 65);
+    padding-left: 20px;
+
+}
+img{
+    width: 925px;
+    height: 200px;
+
+}
+p{  
+width: 925px;
+padding: 10px;
+text-align: justify;}
