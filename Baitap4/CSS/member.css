@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box ; /*canh giua*/
+    margin: 0 auto ;
+    
+}
+div{
+    margin: 300px;
+    border: 1px solid black;
+    margin-top: 10px;/*khoảng cách trên div*/
+    border: 1px solid rgb(63, 160, 192);
+    width: 1300px;
+    height: 850px;
+    
+}
+hr {
+    margin: 2px 0; /* Khoảng cách giữa đường kẻ và các phần tử khác */
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 10px; /* Tạo khoảng cách 20px giữa các đoạn văn */
+}
+h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+h2 a{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+a{
+    color: blueviolet;
+    font-size: 15px;
+}

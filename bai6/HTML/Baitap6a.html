@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <link rel="stylesheet" href="../CSS/baitap6a.css">
+</head>
+<body>
+    <div>
+        <img src="../IMG/6.jpg" alt="Ảnh">
+        <table>
+           <tr>
+            <td colspan="3"><h2>Registration Form</h2></td>
+           </tr>
+           <tr>
+            <td></td>
+            <td colspan="2">Register your JackSon Electronics product here</td>
+           </tr>
+           <tr>
+            <td label for="firstname">First Name:</label></td>
+            
+            <td colspan="2">
+                <input type="text" id="firstname" name="firstname" size="15" >
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" size="15">
+            </td>
+            
+           </tr>
+           <tr>
+            <td label for="address">Address #1:</label></td>
+            <td  colspan="2"><input type="text" id="address" name="address"></td>
+      
+           </tr>
+           <tr>
+            <td label for="address">Address #2:</label></td>
+            <td colspan="2"><input type="text" id="address" name="address"></td>
+           </tr>
+           <tr>
+            <td>
+                <label for="city">City:</label>
+                
+            </td>
+            <td> 
+                <input type="text" id="City" name="City" size="15">
+            </td>
+            <td>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" size="7">
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" size="10">
+            </td>
+            
+           </tr>
+           <tr>
+            <td label for="country">Country:</label></td>
+            <td colspan="2"><input type="text" id="country" name="country"></td>
+           </tr>
+           <tr>
+            <td colspan="3"><hr></td>
+           </tr>
+           <tr>
+            <td label for="product">Product:</label></td>
+            <td colspan="2">
+                <select id="product" name="product">
+                    <option value="scanMaster" >ScanMaster</option>
+                    <option value="minh">Minh </option>
+                </select>
+            </td>
+           </tr>
+           <tr>
+            <td label for="datepurchased">Date Purchased:</label></td>
+            <td colspan="2"><input type="text" id="datepurchased" name="datepurchased"></td>
+           </tr>
+           <tr>
+            <td label for="Serial">Serial#:</label></td>
+            <td colspan="2"><input type="text" id="Serial" name="Serial"></td>
+           </tr>
+           <tr>
+            <td label for="usedfor">Used for:</label></td>
+
+            <td colspan="2"><input type="radio" id="Home" name="Home" value="Home">
+                <label for="Home">Home</label>
+                <input type="radio" id="Educational" name="Educational" value="Educational">
+                <label for="Educational">Educational Institution</label>
+                <input type="radio" id="Business" name="Business" value="Business">
+                <label for="Business">Business</label>
+                <input type="radio" id="Other" name="Other" value="Other">
+                <label for="Other">Other</label><br>
+                <input type="radio" id="govemment" name="govemment" value="govemment">
+                <label for="govemment">Govemment</label>
+            
+            </td>
+           </tr>
+           <tr>
+            <td label for="system">System(check all that apply):</label></td>
+            <td>
+                <input type="checkbox" id="Windows" name="Windows" value="Windows">
+                <label for="Windows"> Windows</label>
+                <input type="checkbox" id="UNIX" name="UNIX" value="UNIX">
+                <label for="UNIX"> UNIX</label><br>
+                <input type="checkbox" id="Macintosh" name="Macintosh" value="Macintosh">
+                <label for="Macintosh"> Macintosh</label>
+                <input type="checkbox" id="Other" name="Other" value="Other">
+                <label for="Other"> Other</label>
+            </td>
+            <td> </td>
+            </tr>
+            <tr>
+                <td colspan="3"><hr></td>
+               </tr>
+           <tr>
+            <td label for="system">Comments?:</label></td>
+            <td colspan="2">
+                <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
+            </td>
+           </tr>
+           <tr>
+            <td></td>
+            <td colspan="2">
+                <input type="submit" value="Click to register">
+                <input type="reset" value="Click to cancel">
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

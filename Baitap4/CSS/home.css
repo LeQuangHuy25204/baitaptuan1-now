@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box ; /*canh giua*/
+    margin: 0 auto ;
+    
+}
+div{
+    margin: 300px;
+    border: 1px solid black;
+    font-size: 10px;
+    margin-top: 20px;/*khoảng cách trên div*/
+    width: 600px;
+    height: 320px;
+    padding-left: 10px;
+}
+hr {
+    margin: 10px 0; /* Khoảng cách giữa đường kẻ và các phần tử khác */
+}
+p {
+    margin-bottom: 20px; /* Tạo khoảng cách 20px giữa các đoạn văn */
+}
+h2{
+    font-size: 20px;
+}

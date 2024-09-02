@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+div {
+    margin-top: 20px;
+    padding: 10px;
+    width: 1000px;
+    background-color:white;
+    border: 1px solid blue;
+
+}
+table {
+    border-collapse: collapse;
+    width: 950px;
+    
+}
+
+tr, td {
+    padding: 0px;
+    margin-top: 0px;
+    width: 800px;
+    
+}
+h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+label {
+    margin-left: 20px;
+    font-size: 20px;         
+    display: inline-block;
+    text-align: right;
+    padding: 0px;
+    
+    
+}
+
+input{
+    padding: 0px;
+    box-sizing: border-box;
+    margin-right: 500px;
+}
+fieldset {
+    border: 1px solid gray;
+    border-radius: 5px;/*độ cong*/
+    padding: 10px;
+}
+legend {
+    font-size: 20px;
+    margin-left: 20px;
+}

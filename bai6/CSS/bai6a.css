@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;     
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body{
+    
+    font-family: Arial, sans-serif;
+}
+div{
+    width: 800px;
+    height: 720px;
+    border: 0.5px solid rgb(221, 218, 218);
+    margin-top:20px;
+    background-color:  #99cdff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+

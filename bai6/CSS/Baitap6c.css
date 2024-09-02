@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+div {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    border: 1px solid blue;
+
+}
+table {
+    border-collapse: collapse;
+    width: 250px;
+    
+}
+tr, td {
+    padding: 0px;
+    margin-top: 0px;
+    width: 500px;
+    
+}
+
+label{
+    font-size: 20px;         
+    display: inline-block;
+    text-align: right;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+input[type="submit"] {
+    margin-top: 20px;
+}
