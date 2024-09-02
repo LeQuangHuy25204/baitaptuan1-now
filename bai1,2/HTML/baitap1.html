@@ -9,28 +9,34 @@
             box-sizing: border-box;
             margin:0 auto;
         }
-        div{
+        #container{
             width: 350px;
-            height: 500px;
+            height: atuo;
             border: 1px solid gainsboro;
             padding-left: 20px;
             box-shadow: 4px 4px 3px  gray,-4px -4px 3px;
         }
+        #menu_n a{
+            text-decoration: none;
+            border-right: 2px solid red;
+           
+        }
+      
         
     </style>
 </head>
 
 <body>
-    <div>
+    <div id= "container">
+    <div id="menu_n">
     <h1> Example Cafe Menu</h1>
-    <a href="#Starters">Starters <span>|</span></a>
-    <a href="#MainCourses"> Main Courses <span>|</span>
-    </a>
-    <a href="#Desserts">
-        Desserts
-    </a>
+    <hr>
+    <a href="#Starters">Starters</a>
+    <a href="#MainCourses"> Main Courses </a>
+    <a href="#Desserts">Desserts</a> </div>
+    
     <h2 id="Starters"> Starters</h2>
-    <ul>
+    <ul>    
         <li>Chestnut and Mushroom Goujous(<ins>v</ins>)</li>
         <li>Goat Chees Salad(<ins>v</ins>)</li>
         <li>Honey Soy Chicken</li>
